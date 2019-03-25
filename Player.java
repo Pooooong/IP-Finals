@@ -77,6 +77,7 @@ public class Player extends GameObject{
 				}
 
 				if(getBounds().intersects(block.deathBounds())){
+						died = true;
 				}
 
 			}
@@ -109,3 +110,4 @@ public class Player extends GameObject{
 		return new Ellipse2D.Double (x, y, width, height);
 	}
 }
+
