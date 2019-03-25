@@ -37,9 +37,9 @@ public class Block extends GameObject {
 		if(y + height < block[0].y){
 
 		if(falling || jumping){
-			y += 7;
+			y += 11;
 
-			if(velY > MAX_SPEED - 5)
+			if(velY > MAX_SPEED)
 				velY = MAX_SPEED - 5;
 		}
 		}
