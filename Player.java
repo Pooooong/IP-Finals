@@ -99,7 +99,7 @@ public class Player extends GameObject{
 
 		Graphics2D g2d = (Graphics2D)g;
 
-			g.setColor(Color.orange);
+			g.setColor(Color.pink);
 			g2d.fill(getBounds());
 			pos = getY();
 
